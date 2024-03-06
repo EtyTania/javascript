@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>java-script</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+  </head>
+  <body >
+    <div class="container">
+      <h2 class="text-danger"><u>Text change</u></h2>
+       <div class="container text-center">
+        <h3 id="tc">Assalamualaikum</h3>
+        <button class="btn btn-dark" onclick="textChange()">Click the button</button>
+       </div>
+   
+      <h2 class="text-danger"><u>Warning</u></h2>
+       <div class="container text-center">
+        <h3>press ctrl+p to start printing</h3>
+        <button class="btn btn-dark" onclick="warning()">Click the button</button>
+       </div>
+    
+
+      <h2 class="text-danger"><u>Show the Date & Time</u></h2>
+       <div class="container text-center">
+        
+        <button class="btn btn-dark" onclick="showDateTime()">Click the button</button>
+        <p id="d_t"></p>
+       </div>
+
+      <h2 class="text-danger"><u>Bulb ON/OFF</u></h2>
+       <div class="container text-center">
+        
+        <button class="btn btn-outline-success" onclick="bulbOn()">ON</button>
+        <img id="bulb" src="image/pic_bulboff.gif">
+        <button class="btn btn-outline-danger" onclick="bulbOff()">OFF</button>
+
+       </div>
+
+       <h2 class="text-danger"><u>Color change</u></h2>
+       <div class="container text-center">
+        
+        <h4 id="clr" onmouseover="colorChange()">Mouse over effect</h4>
+
+       </div>
+
+       <h2 class="text-danger"><u>Display None</u></h2>
+       <div class="container text-center">
+        <p id="none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis, felis quis convallis pellentesque, massa tellus consectetur turpis, in viverra eros dui et velit. Aenean blandit, quam vel tincidunt pulvinar, sapien nunc tempus tortor, sed sodales massa leo id felis. Cras ac egestas lacus. Aliquam bibendum tellus vitae nisi cursus tristique. In elementum nunc blandit, scelerisque augue quis, dignissim risus. </p>
+        <button class="btn btn-outline-warning" onclick="displayNone()">click me</button>
+
+       </div>
+       <h2 class="text-danger"><u>Display Block</u></h2>
+       <div class="container text-center">
+        <p id="block" style="display:none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis, felis quis convallis pellentesque, massa tellus consectetur turpis, in viverra eros dui et velit. Aenean blandit, quam vel tincidunt pulvinar, sapien nunc tempus tortor, sed sodales massa leo id felis. Cras ac egestas lacus. Aliquam bibendum tellus vitae nisi cursus tristique. In elementum nunc blandit, scelerisque augue quis, dignissim risus. </p>
+        <button class="btn btn-outline-warning" onclick="displayBlock()">click me</button>
+
+       </div>
+
+
+
+    </div>
+  
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
